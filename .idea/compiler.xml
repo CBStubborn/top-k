@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="allen_main" target="1.8" />
+      <module name="allen_test" target="1.8" />
+      <module name="stubborn_main" target="1.8" />
+      <module name="stubborn_test" target="1.8" />
+      <module name="thesis-allen_main" target="1.7" />
+      <module name="thesis-allen_test" target="1.7" />
+      <module name="thesis-stubborn_main" target="1.7" />
+      <module name="thesis-stubborn_test" target="1.7" />
+      <module name="top-k_main" target="1.7" />
+      <module name="top-k_test" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

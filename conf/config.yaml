@@ -1,0 +1,17 @@
+storm_is_local: true
+storm_is_debug: false
+storm_work_num: 10
+
+k: 10
+# mill seconds
+window_size: 900000
+# mill seconds
+window_unit_size: 10000
+monitoring_node_nums: 10
+begin_time: 1477695600000
+error_factor: 0
+is_real_data_set: false
+traffic_data_file: E:\top-k\2016-10\processed\10\29\07-12\valid-item.record
+is_plain: false
+# without/part/all/part-effective
+with_slack: part

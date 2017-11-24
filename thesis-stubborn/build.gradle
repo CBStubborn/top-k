@@ -1,0 +1,33 @@
+group 'personal.topk.monitoring'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+task fatJar(type: Jar) {
+    jar {
+        manifest {
+            attributes 'Implementation-Title': 'Storm Monitoring',
+                    'Implementation-Version': version
+            attributes 'Main-Class': 'thesis.topk.monitoring.TopKTopology'
+        }
+    }
+    baseName = project.name + '-all'
+    dependsOn configurations.runtime
+    from {
+        (configurations.runtime).collect {
+            it.isDirectory() ? it : zipTree(it)
+        }
+    } {
+        exclude "META-INF.SF"
+        exclude "META-INF.DSA"
+        exclude "META-INF.RSA"
+
+    }
+    with jar
+}

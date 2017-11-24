@@ -1,0 +1,3 @@
+rootProject.name = 'top-k'
+include 'thesis-stubborn'
+include 'thesis-allen'

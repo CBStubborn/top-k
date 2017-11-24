@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/thesis-allen/thesis-allen.iml" filepath="$PROJECT_DIR$/.idea/modules/thesis-allen/thesis-allen.iml" group="thesis-allen" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/thesis-allen/thesis-allen_main.iml" filepath="$PROJECT_DIR$/.idea/modules/thesis-allen/thesis-allen_main.iml" group="thesis-allen" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/thesis-allen/thesis-allen_test.iml" filepath="$PROJECT_DIR$/.idea/modules/thesis-allen/thesis-allen_test.iml" group="thesis-allen" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/thesis-stubborn.iml" filepath="$PROJECT_DIR$/.idea/modules/thesis-stubborn.iml" group="thesis-stubborn" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/thesis-stubborn/thesis-stubborn_main.iml" filepath="$PROJECT_DIR$/.idea/modules/thesis-stubborn/thesis-stubborn_main.iml" group="thesis-stubborn" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/thesis-stubborn/thesis-stubborn_test.iml" filepath="$PROJECT_DIR$/.idea/modules/thesis-stubborn/thesis-stubborn_test.iml" group="thesis-stubborn" />
+      <module fileurl="file://$PROJECT_DIR$/top-k.iml" filepath="$PROJECT_DIR$/top-k.iml" />
+    </modules>
+  </component>
+</project>
